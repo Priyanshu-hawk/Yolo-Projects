@@ -1,11 +1,11 @@
 from ultralytics import YOLO
 import cv2
 
-# cap = cv2.VideoCapture(0)
-# cap.set(3, 1280)
-# cap.set(4, 720)
+cap = cv2.VideoCapture(0)
+cap.set(3, 1280)
+cap.set(4, 720)
 
-cap = cv2.VideoCapture("../Object-Detection-101/Videos/people.mp4")
+# cap = cv2.VideoCapture("..Videos/people.mp4")
 
 model = YOLO("../yolo_weights/yolov8l.pt")
 

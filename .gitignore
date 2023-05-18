@@ -1,3 +1,5 @@
 # ignore virtualenv
 venv
 *.zip
+yolo_weights
+__pycache__
